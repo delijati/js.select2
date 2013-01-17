@@ -1,4 +1,4 @@
 js.select2
 ==========
 
-packaged select2 for fanstatic
+Packaged select2 for fanstatic

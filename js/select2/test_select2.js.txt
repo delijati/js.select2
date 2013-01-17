@@ -1,0 +1,10 @@
+How to use?
+===========
+
+
+You can import ``select2`` from ``js.select2`` and ``need`` it where you want
+these resources to be included on a page::
+
+  >>> from js.select2 import select2
+  >>> select2.need()
+
