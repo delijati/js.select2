@@ -1,2 +1,2 @@
-include *.txt *.cfg
-recursive-include js *.txt *.js
+include *.txt *.cfg *.md
+recursive-include js *.txt *.js *.md
