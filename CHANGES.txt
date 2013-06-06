@@ -4,7 +4,9 @@ CHANGES
 3.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Updated to 3.4.
+
+- Added i18n to __init__.py.
 
 
 3.3 (2013-01-21)
