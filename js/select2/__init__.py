@@ -130,5 +130,5 @@ select2_zh_CN = fanstatic.Resource(
     depends=[select2])
 select2_zh_TW = fanstatic.Resource(
     library,
-    'select2_locale_zh_TW.js',
+    'select2_locale_zh-TW.js',
     depends=[select2])
