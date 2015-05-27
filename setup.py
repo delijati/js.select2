@@ -29,6 +29,7 @@ setup(name='js.select2',
       zip_safe=False,
       install_requires=['fanstatic',
                         'setuptools',
+                        'js.jquery',
                         ],
       entry_points={'fanstatic.libraries':
                     ['select2 = js.select2:library',
