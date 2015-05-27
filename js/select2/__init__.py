@@ -1,11 +1,11 @@
 import js.jquery
-from fanstatic import Library, Resource, Group
+import fanstatic
 
 library = fanstatic.Library('select2', 'resources')
 
 select2 = fanstatic.Group([
-    fanstatic.Resource(library, 'select2.js',
-        minified='select2.min.js',
+    fanstatic.Resource(library, 'js/select2.js',
+        minified='js/select2.min.js',
         depends=[js.jquery.jquery]),
     fanstatic.Resource(library, 'css/select2.css')
     ])
@@ -122,7 +122,7 @@ select2_pl = fanstatic.Resource(
     library, 'js/i18n/pl.js',
     depends=[select2])
 
-select2_pt-BR = fanstatic.Resource(
+select2_pt_BR = fanstatic.Resource(
     library, 'js/i18n/pt-BR.js',
     depends=[select2])
 
