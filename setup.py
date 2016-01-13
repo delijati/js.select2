@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.5.dev0'
+version = '4.0.1+md.2.dev0'
 
 
 def read(*rnames):
@@ -29,6 +29,7 @@ setup(name='js.select2',
       zip_safe=False,
       install_requires=['fanstatic',
                         'setuptools',
+                        'js.jquery',
                         ],
       entry_points={'fanstatic.libraries':
                     ['select2 = js.select2:library',
