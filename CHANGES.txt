@@ -4,7 +4,7 @@ CHANGES
 4.0.1+md.2 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Added the 'full' javascript resources.
 
 
 4.0.1+md.1 (2015-12-18)
