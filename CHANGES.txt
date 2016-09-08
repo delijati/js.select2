@@ -4,7 +4,7 @@ CHANGES
 4.0.1+md.3 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Put i18n files inside a dictionary.
 
 
 4.0.1+md.2 (2016-01-28)
