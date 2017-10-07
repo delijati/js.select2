@@ -3,7 +3,10 @@ import fanstatic
 
 library = fanstatic.Library('select2', 'resources')
 
-select2_css = fanstatic.Resource(library, 'css/select2.css')
+select2_css = fanstatic.Resource(
+    library,
+    'css/select2.css',
+    minified='js/select2.min.css')
 
 select2 = fanstatic.Resource(
     library, 'js/select2.js',
@@ -16,6 +19,10 @@ select2_full = fanstatic.Resource(
     depends=[select2_css, js.jquery.jquery])
 
 locales = {}
+
+select2_ar = locales['ar'] = fanstatic.Resource(
+    library, 'js/i18n/ar.js',
+    depends=[select2])
 
 select2_az = locales['az'] = fanstatic.Resource(
     library, 'js/i18n/az.js',
@@ -39,6 +46,10 @@ select2_da = locales['da'] = fanstatic.Resource(
 
 select2_de = locales['de'] = fanstatic.Resource(
     library, 'js/i18n/de.js',
+    depends=[select2])
+
+select2_el = locales['el'] = fanstatic.Resource(
+    library, 'js/i18n/el.js',
     depends=[select2])
 
 select2_en = locales['en'] = fanstatic.Resource(
@@ -89,6 +100,10 @@ select2_hu = locales['hu'] = fanstatic.Resource(
     library, 'js/i18n/hu.js',
     depends=[select2])
 
+select2_hy = locales['hy'] = fanstatic.Resource(
+    library, 'js/i18n/hy.js',
+    depends=[select2])
+
 select2_id = locales['id'] = fanstatic.Resource(
     library, 'js/i18n/id.js',
     depends=[select2])
@@ -99,6 +114,14 @@ select2_is = locales['is'] = fanstatic.Resource(
 
 select2_it = locales['it'] = fanstatic.Resource(
     library, 'js/i18n/it.js',
+    depends=[select2])
+
+select2_ja = locales['ja'] = fanstatic.Resource(
+    library, 'js/i18n/ja.js',
+    depends=[select2])
+
+select2_km = locales['km'] = fanstatic.Resource(
+    library, 'js/i18n/km.js',
     depends=[select2])
 
 select2_ko = locales['ko'] = fanstatic.Resource(
@@ -117,6 +140,10 @@ select2_mk = locales['mk'] = fanstatic.Resource(
     library, 'js/i18n/mk.js',
     depends=[select2])
 
+select2_ms = locales['ms'] = fanstatic.Resource(
+    library, 'js/i18n/ms.js',
+    depends=[select2])
+
 select2_nb = locales['nb'] = fanstatic.Resource(
     library, 'js/i18n/nb.js',
     depends=[select2])
@@ -129,7 +156,7 @@ select2_pl = locales['pl'] = fanstatic.Resource(
     library, 'js/i18n/pl.js',
     depends=[select2])
 
-select2_pt_BR = locales['pt_BR'] = fanstatic.Resource(
+select2_pt_BR = locales['pt_BR'] = locales['pt-BR'] = fanstatic.Resource(
     library, 'js/i18n/pt-BR.js',
     depends=[select2])
 
@@ -147,6 +174,14 @@ select2_ru = locales['ru'] = fanstatic.Resource(
 
 select2_sk = locales['sk'] = fanstatic.Resource(
     library, 'js/i18n/sk.js',
+    depends=[select2])
+
+select2_sl = locales['sl'] = fanstatic.Resource(
+    library, 'js/i18n/sl.js',
+    depends=[select2])
+
+select2_sr_Cyrl = locales['sr_Cyrl'] = locales['sr-Cyrl'] = fanstatic.Resource(
+    library, 'js/i18n/sr-Cyrl.js',
     depends=[select2])
 
 select2_sr = locales['sr'] = fanstatic.Resource(
@@ -173,10 +208,10 @@ select2_vi = locales['vi'] = fanstatic.Resource(
     library, 'js/i18n/vi.js',
     depends=[select2])
 
-select2_zh_CN = locales['zh_CN'] = fanstatic.Resource(
+select2_zh_CN = locales['zh_CN'] = locales['zh-CN'] = fanstatic.Resource(
     library, 'js/i18n/zh-CN.js',
     depends=[select2])
 
-select2_zh_TW = locales['zh_TW'] = fanstatic.Resource(
+select2_zh_TW = locales['zh_TW'] = locales['zh-TW'] = fanstatic.Resource(
     library, 'js/i18n/zh-TW.js',
     depends=[select2])
