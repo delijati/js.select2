@@ -2,7 +2,7 @@ CHANGES
 =======
 
 4.0.4 (unreleased)
------------------------
+------------------
 
 - Upgraded to 4.0.4
 
@@ -11,6 +11,14 @@ CHANGES
 - Added the 'full' javascript resources.
 
 - Include the minified CSS.
+
+
+4.0.1 (2016-01-13)
+------------------
+
+- Merged 4.0.1
+
+- README.md to README.rst
 
 
 4.0.1 (2016-01-13)

@@ -3,11 +3,10 @@ import os
 
 version = '4.0.4.dev0'
 
-
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-long_description = (read('README.md')
+long_description = (read('README.rst')
                     + '\n' +
                     read('js', 'select2', 'test_select2.js.txt')
                     + '\n' +
