@@ -1,10 +1,24 @@
 CHANGES
 =======
 
-4.0.2 (unreleased)
+4.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Upgraded to 4.0.4
+
+- Put i18n files inside a dictionary.
+
+- Added the 'full' javascript resources.
+
+- Include the minified CSS.
+
+
+4.0.1 (2016-01-13)
+------------------
+
+- Merged 4.0.1
+
+- README.md to README.rst
 
 
 4.0.1 (2016-01-13)

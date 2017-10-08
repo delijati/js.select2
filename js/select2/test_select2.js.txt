@@ -7,3 +7,8 @@ these resources to be included on a page::
 
   >>> from js.select2 import select2
   >>> select2.need()
+
+To use the full build use::
+
+  >>> from js.select2 import select2_full
+  >>> select2_full.need()
