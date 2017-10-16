@@ -1,6 +1,10 @@
 Introduction
 ============
 
+.. image:: https://api.travis-ci.org/delijati/js.select2.svg?branch=master
+        :target: https://travis-ci.org/delijati/js.select2
+        :alt: master Travis CI Status
+
 This library packages `select2`_ for `fanstatic`_.
 
 .. _`fanstatic`: http://fanstatic.org
