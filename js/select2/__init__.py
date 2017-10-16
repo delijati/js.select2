@@ -6,7 +6,7 @@ library = fanstatic.Library('select2', 'resources')
 select2_css = fanstatic.Resource(
     library,
     'css/select2.css',
-    minified='js/select2.min.css')
+    minified='css/select2.min.css')
 
 select2 = fanstatic.Resource(
     library, 'js/select2.js',
